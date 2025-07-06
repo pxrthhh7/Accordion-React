@@ -1,12 +1,34 @@
-# React + Vite
+# Accordion-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and accessible Accordion component built using **React** and **Tailwind CSS**. Perfect for FAQs or collapsible sections.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Built with **React**
+- 🎨 Styled with **Tailwind CSS**
+- ⚡ Smooth open/close animations
+- 🔁 Toggle individual items dynamically
+- 📱 Fully responsive layout
+- 🔤 Dynamic content using a data file
+- 🧩 Icon support with **Iconify**
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [Click to View](https://accordion-react-snowy.vercel.app/)
+
+## 📁 Project Structure
+
+Accordion-React/
+├── public/
+│ └── index.html
+├── src/
+│ ├── Components/
+│ │ ├── Accordion.jsx
+│ │ └── AccordionItems.jsx
+│ ├── accordionData.js
+│ ├── App.jsx
+│ └── main.jsx
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
